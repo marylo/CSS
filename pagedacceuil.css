@@ -1,0 +1,182 @@
+body {
+  background-color: black;
+  font-family: Arial, sans-serif;
+  font-size: large;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  background-image: url("/PHOTO_SAE_203/fondcentre.jpg");
+}
+
+header {
+  background-color: rgba(0, 0, 0, 0.9);
+  margin-top: 1vw;
+  width: 100vw;
+  padding: 0.5em 1em;
+  border-radius: 10px;
+  box-sizing: border-box;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+p {
+  font-size: large;
+  text-align: center;
+}
+
+.fieldset-container {
+display: flex;
+justify-content: center;
+gap: 15px;
+margin: 20px;
+transition: transform 0.3s ease;
+}
+
+.fieldset-1,
+.fieldset-2,
+.fieldset-3,
+.fieldset-4,
+.fieldset-5 {
+flex: 1;
+min-width: 100px;
+max-width: 210px;
+padding: 0;
+border: 1px solid #ccc;
+border-radius: 15px;
+background-color: rgba(0, 0, 0, 0.8);
+overflow: hidden;
+transition: transform 0.3s ease;
+}
+
+.fieldset-1:hover,
+.fieldset-2:hover,
+.fieldset-3:hover,
+.fieldset-4:hover,
+.fieldset-5:hover {
+transform: scale(1.1);
+}
+
+.fieldset-1 img,
+.fieldset-2 img,
+.fieldset-3 img,
+.fieldset-4 img,
+.fieldset-5 img {
+width: 100%;
+height: 100%;
+object-fit: cover;
+border-radius: 15px;
+}
+
+a {
+color: white;
+text-decoration: none;
+}
+
+a:hover {
+color: #ddd;
+}
+
+h1 {
+  text-align: center;
+  font-size: 350%;
+  font-family: 'Times New Roman', Times, serif;
+  text-shadow: #000000;
+}
+
+h2 {
+  text-align: center;
+  font-size: 150%;
+  font-family: fantasy;
+}
+
+h3, h4, h5, h6 {
+  text-align: center;
+  font-size: 200%;
+  font-family: 'Times New Roman', Times, serif;
+  color: azure;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: azure;
+  text-decoration: none;
+}
+
+.about-me {
+  background-color: rgba(0, 0, 1, 0.1);
+  color: azure;
+  padding: 20px;
+  border-radius: 8px;
+  margin: 20px auto;
+  max-width: 800px;
+  text-align: left;
+}
+
+.about-me h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.about-me p {
+  font-size: 1em;
+  line-height: 1.5;
+}
+
+form {
+background-color: rgba(0, 0, 1, 0.1);
+padding: 20px;
+margin: 20px auto;
+max-width: 500px;
+border-radius: 8px;
+box-shadow: 0 4px 8px rgba(104, 4, 94, 0.2);
+color: azure;
+font-size: 1em;
+}
+
+form legend {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+form input[type="text"],
+form select {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: black;
+  font-size: 1em;
+  box-sizing: border-box;
+}
+
+form input[type="text"]:focus,
+form select:focus {
+  outline: none;
+  border-color: #e952d7;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+form input[type="submit"] {
+  width: 100%;
+  padding: 12px;
+  background-color: #f176df;
+  color: white;
+  font-size: 1em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+  background-color: #4e1245;
+}
+
+form br {
+  display: none;
+}

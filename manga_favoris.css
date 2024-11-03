@@ -1,0 +1,88 @@
+img {
+  max-width: 20vw;
+  max-height: 50vh;
+}
+body {
+   font-family: Arial, sans-serif;
+   background-color: rgba(0, 0, 0, 0.4);
+   font-size: large;
+   color:azure ;
+   text-align: center;
+   background-image: url("/PHOTO_SAE_203/fondmanga.jpg");
+ }
+ header {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+ p {
+  font-size: large;
+  text-align: center;
+}
+
+img {
+  width: 200px;
+  height: auto;
+}
+
+.fieldset-container {
+  display: flex;
+  justify-content: center; /* Center the fieldsets */
+  gap: 20px;
+  margin: 20px;
+}
+.fieldset-1 {
+  transform: scale(0.8); 
+  flex: 1; 
+  min-width: 100px; 
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.fieldset-2 {
+  transform: scale(0.8); 
+  flex: 1; 
+  min-width: 100px; 
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.fieldset-3 {
+  transform: scale(0.8); 
+  flex: 1; 
+  min-width: 100px; 
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.fieldset-4 {
+  transform: scale(0.8); 
+  flex: 1; 
+  min-width: 100px; 
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+h1 {
+  text-align: center; /* Titre de la page */
+  font-size: 350%;
+  font-family: 'Times New Roman', Times, serif;
+  text-shadow: #000000;
+  background-color: rgba(0, 0, 0, 0.8);
+
+}
+h2 {
+  text-align: center; /* Sous-titre de la page */
+  font-size: 130%;
+  font-family:'Times New Roman', Times, serif;
+  background-color: white; /* Couleur de fond blanche */
+  border-radius: 10px; /* Coins arrondis */
+  padding: 10px 20px; /* Ajout de l'espace intérieur */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Ombre légère pour l'effet */
+  margin: 20px auto; /* Centrer avec un espace au-dessus et au-dessous */
+  width: fit-content; /* Ajuste la largeur au contenu */
+}
+
